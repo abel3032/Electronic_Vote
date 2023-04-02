@@ -1,0 +1,3 @@
+D:/ElectronicVote/cmake-build-debug/CMakeFiles/ElectronicVote.dir
+D:/ElectronicVote/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ElectronicVote/cmake-build-debug/CMakeFiles/rebuild_cache.dir
