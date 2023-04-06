@@ -1,7 +1,7 @@
 # Electronic_Vote
 The program reads the personal data file of the people who will vote from a CSV (Comma Separated Values) file called "evidenta.csv" written in the following format (each person on one line):
 
-NAME FIRSTNAME_1 FIRSTNAME_2 FIRSTNAME_N, ADDRESS, IDENTITY_NUMBER, ID_SERIES
+LAST_NAME FIRST_NAME_1 FIRST_NAME_2 FIRST_NAME_N, ADDRESS, IDENTITY_NUMBER, ID_SERIES
 The number of people is not known when the file is opened; the file will be read to its end.
 
 Lines of the form are read from the keyboard:
@@ -31,7 +31,7 @@ Otherwise, the vote for the candidate specified by name is recorded and the vote
 Displaying statistics when entering a '?' or '*' is done in the following format:
 
 Statistics
-==========
+----------
 NAME CANDIDATE_1: 1234 votes (77.61%)
 NAME CANDIDATE_2: 343 votes (21.57%)
 NAME CANDIDATE_N: 13 votes (0.82%)
